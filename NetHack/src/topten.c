@@ -36,7 +36,7 @@ static long final_fpos;
 #ifdef _WINDOWS//如果是在windows上编译
 #define NAMSZ 10
 #else
-#define NAMSZ 15
+#define NAMSZ 1000
 #endif
 #endif
 #define DTHSZ 100

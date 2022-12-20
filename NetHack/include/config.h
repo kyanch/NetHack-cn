@@ -237,7 +237,7 @@
 #endif
 #ifndef PERS_IS_UID
 #if !defined(MICRO) && !defined(MAC) && !defined(WIN32)
-#define PERS_IS_UID 1 /* delete for PERSMAX per name; now per uid */
+#define PERS_IS_UID 0 /* delete for PERSMAX per name; now per uid */
 #else
 #define PERS_IS_UID 0
 #endif
@@ -352,7 +352,7 @@
  * otherwise it will be the current directory.
  */
 #ifndef HACKDIR
-#define HACKDIR "/usr/games/lib/nethackdir"
+#define HACKDIR "/nh366"
 #endif
 
 /*

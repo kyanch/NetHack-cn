@@ -740,7 +740,7 @@ enter_explore_mode(VOID_ARGS)
 #if defined(UNIX)
         if (!sysopt.explorers || !sysopt.explorers[0]
             || !check_user_string(sysopt.explorers)) {
-            You("cannot access explore mode.");
+            You("无法进入探索模式");
             return 0;
         }
 #endif
